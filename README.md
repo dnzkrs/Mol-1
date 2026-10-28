@@ -253,12 +253,8 @@ mark comprising 172 interface clusters from 150 PDB entries.** (a)–(c) Success
 
 ## Acknowledgements
 
-Mol-1 is derived from [Protenix](https://github.com/bytedance/Protenix). Protenix builds on the
-AlphaFold 3 ecosystem, including AlphaFold 3, OpenFold and ColabFold. Original copyright
-notices and license headers are kept in every file derived from it, and files
-changed here say so and name the upstream revision they came from.
-Third-party components and their licenses are listed in
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Third-party attributions and license information are provided in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). 
+
 
 ## Citation
 
