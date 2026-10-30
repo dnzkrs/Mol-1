@@ -1,0 +1,26 @@
+<svg width="700" height="210" viewBox="0 0 700 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pipeline with failure points"><style>svg{--ink:#16212B;--muted:#5A6B76;--line:#D4DDDA;--accent:#1D6A86;background:#FAFBFB;font-family:"Instrument Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}@media (prefers-color-scheme:dark){svg{--ink:#DCE6E9;--muted:#8FA2AA;--line:#28383F;--accent:#5BB4D3;background:#101A1E}}</style>
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" style="fill:var(--muted)"/></marker></defs>
+<g style="font-size:12px;fill:var(--ink)">
+<rect x="10" y="30" width="120" height="44" rx="8" style="fill:none;stroke:var(--line);stroke-width:1.5"/><text x="70" y="56" text-anchor="middle">install + weights</text>
+<rect x="150" y="30" width="120" height="44" rx="8" style="fill:none;stroke:var(--line);stroke-width:1.5"/><text x="210" y="49" text-anchor="middle">compile fused</text><text x="210" y="64" text-anchor="middle">LayerNorm</text>
+<rect x="290" y="30" width="120" height="44" rx="8" style="fill:none;stroke:var(--line);stroke-width:1.5"/><text x="350" y="56" text-anchor="middle">MSA search</text>
+<rect x="430" y="30" width="120" height="44" rx="8" style="fill:none;stroke:var(--line);stroke-width:1.5"/><text x="490" y="56" text-anchor="middle">model forward</text>
+<rect x="570" y="30" width="120" height="44" rx="8" style="fill:none;stroke:var(--accent);stroke-width:1.5"/><text x="630" y="56" text-anchor="middle">5 CIF + JSON</text>
+<path d="M130,52 L148,52" style="stroke:var(--muted);fill:none" marker-end="url(#a3)"/>
+<path d="M270,52 L288,52" style="stroke:var(--muted);fill:none" marker-end="url(#a3)"/>
+<path d="M410,52 L428,52" style="stroke:var(--muted);fill:none" marker-end="url(#a3)"/>
+<path d="M550,52 L568,52" style="stroke:var(--muted);fill:none" marker-end="url(#a3)"/>
+<g style="fill:#C0612B">
+<text x="210" y="100" text-anchor="middle">✕ ninja missing</text>
+<text x="350" y="100" text-anchor="middle">✕ server 502</text>
+<text x="490" y="100" text-anchor="middle">✕ no sm_75 code</text>
+</g>
+<g style="fill:var(--accent)">
+<text x="210" y="120" text-anchor="middle">pip install ninja</text>
+<text x="350" y="120" text-anchor="middle">retry loop, mol msa</text>
+<text x="490" y="120" text-anchor="middle">LAYERNORM_TYPE=torch</text>
+</g>
+<text x="10" y="165" style="fill:var(--muted)">Across all steps: shell failures did not stop the notebook, so errors surfaced later as a missing file.</text>
+<text x="10" y="183" style="fill:var(--muted)">Fix: commands moved into a helper that raises; old ERR reports deleted before each run.</text>
+</g>
+</svg>

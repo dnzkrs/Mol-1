@@ -1,0 +1,17 @@
+<svg width="680" height="190" viewBox="0 0 680 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pipeline from input JSON to output CIF"><style>svg{--ink:#16212B;--muted:#5A6B76;--line:#D4DDDA;--accent:#1D6A86;background:#FAFBFB;font-family:"Instrument Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}@media (prefers-color-scheme:dark){svg{--ink:#DCE6E9;--muted:#8FA2AA;--line:#28383F;--accent:#5BB4D3;background:#101A1E}}</style>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" style="fill:var(--muted)"/></marker></defs>
+<g style="font-size:12.5px;fill:var(--ink)">
+<rect x="10" y="60" width="110" height="50" rx="8" style="fill:none;stroke:var(--line);stroke-width:1.5"/><text x="65" y="82" text-anchor="middle">input JSON</text><text x="65" y="98" text-anchor="middle" style="fill:var(--muted);font-size:11px">sequences, ligands</text>
+<rect x="160" y="10" width="140" height="50" rx="8" style="fill:none;stroke:var(--accent);stroke-width:1.5"/><text x="230" y="32" text-anchor="middle">protein MSA</text><text x="230" y="48" text-anchor="middle" style="fill:var(--muted);font-size:10px">ColabFold server (network)</text>
+<rect x="160" y="110" width="140" height="50" rx="8" style="fill:none;stroke:var(--line);stroke-width:1.5"/><text x="230" y="132" text-anchor="middle">templates (optional)</text><text x="230" y="148" text-anchor="middle" style="fill:var(--muted);font-size:11px">HMMER + kalign</text>
+<rect x="340" y="60" width="180" height="50" rx="8" style="fill:none;stroke:var(--accent);stroke-width:1.5"/><text x="430" y="82" text-anchor="middle">PairMixer → Pairformer</text><text x="430" y="98" text-anchor="middle" style="fill:var(--muted);font-size:11px">→ diffusion → confidence</text>
+<rect x="560" y="60" width="110" height="50" rx="8" style="fill:none;stroke:var(--line);stroke-width:1.5"/><text x="615" y="82" text-anchor="middle">CIF + JSON</text><text x="615" y="98" text-anchor="middle" style="fill:var(--muted);font-size:11px">per sample</text>
+<path d="M120,78 L158,40" style="stroke:var(--muted);fill:none" marker-end="url(#a1)"/>
+<path d="M120,92 L158,128" style="stroke:var(--muted);fill:none" marker-end="url(#a1)"/>
+<path d="M300,40 L338,75" style="stroke:var(--muted);fill:none" marker-end="url(#a1)"/>
+<path d="M300,130 L338,95" style="stroke:var(--muted);fill:none" marker-end="url(#a1)"/>
+<path d="M520,85 L558,85" style="stroke:var(--muted);fill:none" marker-end="url(#a1)"/>
+<text x="340" y="140" style="fill:var(--muted);font-size:11px">576.8 M parameters; ~2.2 GB checkpoint</text>
+<text x="340" y="156" style="fill:var(--muted);font-size:11px">first CUDA run compiles a fused LayerNorm</text>
+</g>
+</svg>
