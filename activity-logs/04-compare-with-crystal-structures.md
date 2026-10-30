@@ -18,7 +18,7 @@ Done meant standard agreement scores against the experimental structures, a stat
 | Biopython `PairwiseAligner` | 1.88 | Sequence alignment from model residues to crystal residues |
 | NumPy | 2.5.4 | Kabsch superposition, RMSD, lDDT, TM-score and GDT_TS |
 | matplotlib | 3.11.2 | Figures for this log |
-| `compare_crystal.py` | written in this session | The comparison itself |
+| `scripts/compare_crystal.py` | written in this session | The comparison itself |
 
 ## Process
 
