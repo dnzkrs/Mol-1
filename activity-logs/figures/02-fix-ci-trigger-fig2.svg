@@ -1,0 +1,11 @@
+<svg width="620" height="130" viewBox="0 0 620 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Branch diagram"><style>svg{--ink:#16212B;--muted:#5A6B76;--line:#D4DDDA;--accent:#1D6A86;background:#FAFBFB;font-family:"Instrument Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}@media (prefers-color-scheme:dark){svg{--ink:#DCE6E9;--muted:#8FA2AA;--line:#28383F;--accent:#5BB4D3;background:#101A1E}}</style>
+<g style="font-size:12px;fill:var(--ink)">
+<line x1="40" y1="40" x2="380" y2="40" style="stroke:var(--muted);stroke-width:2"/>
+<circle cx="80" cy="40" r="7" style="fill:var(--muted)"/><circle cx="200" cy="40" r="7" style="fill:var(--muted)"/><circle cx="320" cy="40" r="7" style="fill:var(--muted)"/>
+<text x="320" y="22" text-anchor="middle">e6e6486</text><text x="400" y="44">main (CI still on master)</text>
+<path d="M320,40 Q360,95 420,95" style="stroke:var(--accent);fill:none;stroke-width:2"/>
+<circle cx="430" cy="95" r="7" style="fill:var(--accent)"/>
+<text x="445" y="91">1e539f9 CI: trigger on main</text>
+<text x="445" y="109" style="fill:var(--muted)">ccr-312027ff-1vk8pa (pushed)</text>
+</g>
+</svg>

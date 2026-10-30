@@ -1,0 +1,12 @@
+<svg width="640" height="250" viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart of lines per subpackage"><style>svg{--ink:#16212B;--muted:#5A6B76;--line:#D4DDDA;--accent:#1D6A86;background:#FAFBFB;font-family:"Instrument Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}@media (prefers-color-scheme:dark){svg{--ink:#DCE6E9;--muted:#8FA2AA;--line:#28383F;--accent:#5BB4D3;background:#101A1E}}</style>
+<g style="font-size:13px;fill:var(--ink)">
+<text x="120" y="28" text-anchor="end">data/</text><rect x="130" y="15" width="440" height="20" style="fill:var(--accent)"/><text x="576" y="30">18,496</text>
+<text x="120" y="58" text-anchor="end">model/</text><rect x="130" y="45" width="344" height="20" style="fill:var(--accent)"/><text x="480" y="60">14,467</text>
+<text x="120" y="88" text-anchor="end">utils/</text><rect x="130" y="75" width="128" height="20" style="fill:var(--muted)"/><text x="264" y="90">5,393</text>
+<text x="120" y="118" text-anchor="end">runner/</text><rect x="130" y="105" width="99" height="20" style="fill:var(--muted)"/><text x="235" y="120">4,179</text>
+<text x="120" y="148" text-anchor="end">config/</text><rect x="130" y="135" width="27" height="20" style="fill:var(--muted)"/><text x="163" y="150">1,153</text>
+<text x="120" y="178" text-anchor="end">metrics/</text><rect x="130" y="165" width="20" height="20" style="fill:var(--muted)"/><text x="156" y="180">829</text>
+<text x="120" y="208" text-anchor="end">web_service/</text><rect x="130" y="195" width="11" height="20" style="fill:var(--muted)"/><text x="147" y="210">447</text>
+</g>
+<text x="130" y="240" style="font-size:12px;fill:var(--muted)">Blue: data pipeline and network. Grey: support code. Bar length is proportional to line count.</text>
+</svg>

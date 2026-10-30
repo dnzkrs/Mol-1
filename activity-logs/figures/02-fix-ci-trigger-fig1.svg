@@ -1,0 +1,17 @@
+<svg width="660" height="200" viewBox="0 0 660 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Before and after trigger diagram"><style>svg{--ink:#16212B;--muted:#5A6B76;--line:#D4DDDA;--accent:#1D6A86;background:#FAFBFB;font-family:"Instrument Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}@media (prefers-color-scheme:dark){svg{--ink:#DCE6E9;--muted:#8FA2AA;--line:#28383F;--accent:#5BB4D3;background:#101A1E}}</style>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" style="fill:var(--muted)"/></marker></defs>
+<g style="font-size:12.5px;fill:var(--ink)">
+<text x="10" y="22" style="font-weight:600">Before</text>
+<rect x="10" y="35" width="170" height="40" rx="8" style="fill:none;stroke:var(--line);stroke-width:1.5"/><text x="95" y="60" text-anchor="middle">push / PR to main</text>
+<rect x="250" y="35" width="170" height="40" rx="8" style="fill:none;stroke:var(--muted);stroke-dasharray:4 3"/><text x="335" y="60" text-anchor="middle">filter: master</text>
+<rect x="490" y="35" width="160" height="40" rx="8" style="fill:none;stroke:var(--line);stroke-width:1.5"/><text x="570" y="60" text-anchor="middle" style="fill:var(--muted)">no run</text>
+<path d="M180,55 L248,55" style="stroke:var(--muted);fill:none" marker-end="url(#a2)"/>
+<path d="M420,55 L488,55" style="stroke:var(--muted);fill:none;stroke-dasharray:4 3" marker-end="url(#a2)"/>
+<text x="10" y="122" style="font-weight:600">After</text>
+<rect x="10" y="135" width="170" height="40" rx="8" style="fill:none;stroke:var(--line);stroke-width:1.5"/><text x="95" y="160" text-anchor="middle">push / PR to main</text>
+<rect x="250" y="135" width="170" height="40" rx="8" style="fill:none;stroke:var(--accent);stroke-width:1.5"/><text x="335" y="160" text-anchor="middle">filter: main</text>
+<rect x="490" y="135" width="160" height="40" rx="8" style="fill:none;stroke:var(--accent);stroke-width:1.5"/><text x="570" y="160" text-anchor="middle">flake8 + pytest</text>
+<path d="M180,155 L248,155" style="stroke:var(--muted);fill:none" marker-end="url(#a2)"/>
+<path d="M420,155 L488,155" style="stroke:var(--accent);fill:none" marker-end="url(#a2)"/>
+</g>
+</svg>
